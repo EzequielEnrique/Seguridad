@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Espacio entre los botones */
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white;
+    cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.button:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilo para el encabezado */
+h1 {
+    color: white; /* Color de texto blanco para contrastar con el fondo negro */
+    text-align: center; /* Centra el texto */
+    margin-bottom: 100px; /* Espacio inferior entre el encabezado y los botones */
+}
